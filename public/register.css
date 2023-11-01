@@ -1,0 +1,38 @@
+body {
+    background-color: #6D9AC4;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    margin: 0; /* Remove default margin to avoid unexpected spacing */
+  }
+  
+  div {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Stack input and button vertically */
+    justify-content: center; /* Center contents vertically */
+    align-items: center; /* Center contents horizontally */
+    padding: 20px; /* Add padding to space the elements */
+  }
+  
+  input {
+    width: 100%; /* Take up full width of the div */
+    padding: 10px; /* Add padding for spacing */
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add space between input and button */
+  }
+  
+  button {
+    width: 200px;
+    background-color: #EE5684;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 10px;
+    color: wheat;
+    cursor: pointer; /* Add a pointer cursor to indicate interactivity */
+  }
+  
